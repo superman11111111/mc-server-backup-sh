@@ -5,4 +5,4 @@ find world-* -type f -mtime +10 -delete
 
 mkdir latest_backup
 var=$(find world-* -type f -mtime 0)
-/bin/cp -rf $var "latest_backup/world.tar.gz"
+/bin/cp -rf $var "latest.tar.gz"
